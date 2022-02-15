@@ -1,0 +1,8 @@
+# 404 not found
+https://climateknowledgeportal.worldbank.org/cru/cru/timeseries/tas/annual/climatology/others/country/XRK
+https://climateknowledgeportal.worldbank.org/cru/cru/timeseries/tas/annual/climatology/others/country/ANT
+
+# 228 .csv files in /data directory
+- use command *.csv /s to check
+- However, there should be 232 country list (223 minus 1 default option)
+- There are 2 csv is not downloaded, not sure what country is that, only able to validate while doing EDA 

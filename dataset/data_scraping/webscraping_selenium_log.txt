@@ -1,0 +1,1075 @@
+PS C:\Users\Asus\Desktop\Year3_Sem2_Jan2022\data-viz\Assignment\Untold-Climate-Change-Story\dataset\data_scraping> py -3 webscrap_selenium.py
+
+Started web scraping
+
+
+DevTools listening on ws://127.0.0.1:54954/devtools/browser/368e76c9-f7b0-41d1-ba24-2c67707fbf93
+
+Initiated chrome driver
+
+
+Opened website
+
+[12832:10704:0215/155253.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[12832:15352:0215/155253.401:ERROR:device_event_log_impl.cc(214)] [15:52:53.401] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[12832:10704:0215/155253.402:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[12832:15352:0215/155253.402:ERROR:device_event_log_impl.cc(214)] [15:52:53.402] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[12832:10704:0215/155253.402:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[12832:10704:0215/155253.446:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+
+Found #data-download-form-container
+
+
+Found #timeseries-tab
+
+
+Navigated to timeseries-tab
+
+
+Filling the form
+
+
+Filled form, download starts in 5 seconds
+
+
+Total number of country: 233
+
+
+Starting download...
+
+
+Selected country 1, Afghanistan
+Downloading...
+Downloaded 1
+
+Selected country 2, Albania
+Downloading...
+Downloaded 2
+
+Selected country 3, Algeria
+Downloading...
+Downloaded 3
+
+Selected country 4, American Samoa
+Downloading...
+[7236:792:0215/155418.745:ERROR:gpu_init.cc(454)] Passthrough is not supported, GL is disabled, ANGLE is 
+Downloaded 4
+
+Selected country 5, Andorra
+Downloading...
+Downloaded 5
+
+Selected country 6, Angola
+Downloading...
+Downloaded 6
+
+Selected country 7, Anguilla
+Downloading...
+Downloaded 7
+
+Selected country 8, Antigua and Barbuda
+Downloading...
+Downloaded 8
+
+Selected country 9, Argentina
+Downloading...
+Downloaded 9
+
+Selected country 10, Armenia
+Downloading...
+Downloaded 10
+
+Selected country 11, Aruba
+Downloading...
+Downloaded 11
+
+Selected country 12, Australia
+Downloading...
+Downloaded 12
+
+Selected country 13, Austria
+Downloading...
+Downloaded 13
+
+Selected country 14, Azerbaijan
+Downloading...
+Downloaded 14
+
+Selected country 15, Bahrain
+Downloading...
+Downloaded 15
+
+Selected country 16, Bangladesh
+Downloading...
+Downloaded 16
+
+Selected country 17, Barbados
+Downloading...
+Downloaded 17
+
+Selected country 18, Belarus
+Downloading...
+Downloaded 18
+
+Selected country 19, Belgium
+Downloading...
+Downloaded 19
+
+Selected country 20, Belize
+Downloading...
+Downloaded 20
+
+Selected country 21, Benin
+Downloading...
+Downloaded 21
+
+Selected country 22, Bermuda
+Downloading...
+Downloaded 22
+
+Selected country 23, Bhutan
+Downloading...
+Downloaded 23
+
+Selected country 24, Bolivia
+Downloading...
+Downloaded 24
+
+Selected country 25, Bosnia and Herzegovina
+Downloading...
+Downloaded 25
+
+Selected country 26, Botswana
+Downloading...
+Downloaded 26
+
+Selected country 27, Brazil
+Downloading...
+Downloaded 27
+
+Selected country 28, British Indian Ocean Territory
+Downloading...
+Downloaded 28
+
+Selected country 29, British Virgin Islands
+Downloading...
+Downloaded 29
+
+Selected country 30, Brunei
+Downloading...
+Downloaded 30
+
+Selected country 31, Bulgaria
+Downloading...
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\Year3_Sem2_Jan2022\data-viz\Assignment\Untold-Climate-Change-Story\dataset\data_scraping\webscrap_selenium.py", line 69, in <module>
+    driver.find_element_by_xpath('//form[@class="form_timeseries_tab"]/div/div/button[@id="submit"]').click()
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="btn btn-inverse" name="submit" id="submit" type="button">...</button> is not clickable at point (514, 504). Other element would receive the click: <div id="ajaxFullThrob" style="display:block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+
+PS C:\Users\Asus\Desktop\Year3_Sem2_Jan2022\data-viz\Assignment\Untold-Climate-Change-Story\dataset\data_scraping> py -3 webscrap_selenium.py
+
+Started web scraping
+
+
+DevTools listening on ws://127.0.0.1:60297/devtools/browser/c5d0bf51-21d0-4610-9f95-4e2bd62075d4
+
+Initiated chrome driver
+
+
+Opened website
+
+
+Found #data-download-form-container
+
+[9780:8648:0215/161340.836:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[9780:9484:0215/161340.836:ERROR:device_event_log_impl.cc(214)] [16:13:40.836] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[9780:9484:0215/161340.838:ERROR:device_event_log_impl.cc(214)] [16:13:40.838] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[9780:8648:0215/161340.836:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[9780:8648:0215/161340.863:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[9780:8648:0215/161340.888:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\Year3_Sem2_Jan2022\data-viz\Assignment\Untold-Climate-Change-Story\dataset\data_scraping\webscrap_selenium.py", line 25, in <module>
+    timeseries_tab = driver.find_element_by_xpath('//div[@id="data-download-form-container"]/div/ul/li[3]/a')
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="data-download-form-container"]/div/ul/li[3]/a"}
+  (Session info: chrome=98.0.4758.102)
+
+PS C:\Users\Asus\Desktop\Year3_Sem2_Jan2022\data-viz\Assignment\Untold-Climate-Change-Story\dataset\data_scraping> py -3 webscrap_selenium.py
+
+Started web scraping
+
+
+DevTools listening on ws://127.0.0.1:51627/devtools/browser/6a5313c7-6850-4e92-883f-e5f924bca3d6
+
+Initiated chrome driver
+
+
+Opened website
+
+[12176:7980:0215/161434.853:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[12176:3548:0215/161434.854:ERROR:device_event_log_impl.cc(214)] [16:14:34.854] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[12176:3548:0215/161434.857:ERROR:device_event_log_impl.cc(214)] [16:14:34.857] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[12176:7980:0215/161434.857:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[12176:7980:0215/161434.881:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[12176:7980:0215/161434.905:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+
+Found #data-download-form-container
+
+
+Found #timeseries-tab
+
+
+Navigated to timeseries-tab
+
+
+Filling the form
+
+
+Filled form, download starts in 5 seconds
+
+
+Total number of country: 233
+
+
+Starting download...
+
+
+Selected country 31, Bulgaria
+Downloading...
+Downloaded 31
+
+Selected country 32, Burkina Faso
+Downloading...
+Downloaded 32
+
+Selected country 33, Burundi
+Downloading...
+[13064:11912:0215/161607.627:ERROR:gpu_init.cc(454)] Passthrough is not supported, GL is disabled, ANGLE is
+Downloaded 33
+
+Selected country 34, Cambodia
+Downloading...
+Downloaded 34
+
+Selected country 35, Cameroon
+Downloading...
+Downloaded 35
+
+Selected country 36, Canada
+Downloading...
+Downloaded 36
+
+Selected country 37, Cape Verde
+Downloading...
+Downloaded 37
+
+Selected country 38, Cayman Islands
+Downloading...
+Downloaded 38
+
+Selected country 39, Central African Republic
+Downloading...
+Downloaded 39
+
+Selected country 40, Chad
+Downloading...
+Downloaded 40
+
+Selected country 41, Chile
+Downloading...
+Downloaded 41
+
+Selected country 42, China
+Downloading...
+Downloaded 42
+
+Selected country 43, Christmas Island
+Downloading...
+Downloaded 43
+
+Selected country 44, Cocos (Keeling) Islands
+Downloading...
+Downloaded 44
+
+Selected country 45, Colombia
+Downloading...
+Downloaded 45
+
+Selected country 46, Comoros
+Downloading...
+Downloaded 46
+
+Selected country 47, Congo (Republic of the)
+Downloading...
+Downloaded 47
+
+Selected country 48, Congo (Democratic Republic of the)
+Downloading...
+Downloaded 48
+
+Selected country 49, Cook Islands
+Downloading...
+Downloaded 49
+
+Selected country 50, Costa Rica
+Downloading...
+Downloaded 50
+
+Selected country 51, Cote d'Ivoire
+Downloading...
+Downloaded 51
+
+Selected country 52, Croatia
+Downloading...
+Downloaded 52
+
+Selected country 53, Cuba
+Downloading...
+Downloaded 53
+
+Selected country 54, Cyprus
+Downloading...
+Downloaded 54
+
+Selected country 55, Czech Republic
+Downloading...
+Downloaded 55
+
+Selected country 56, Denmark
+Downloading...
+Downloaded 56
+
+Selected country 57, Djibouti
+Downloading...
+Downloaded 57
+
+Selected country 58, Dominica
+Downloading...
+Downloaded 58
+
+Selected country 59, Dominican Republic
+Downloading...
+Downloaded 59
+
+Selected country 60, Ecuador
+Downloading...
+Downloaded 60
+
+Selected country 61, Egypt
+Downloading...
+Downloaded 61
+
+Selected country 62, El Salvador
+Downloading...
+Downloaded 62
+
+Selected country 63, Equatorial Guinea
+Downloading...
+Downloaded 63
+
+Selected country 64, Eritrea
+Downloading...
+Downloaded 64
+
+Selected country 65, Estonia
+Downloading...
+Downloaded 65
+
+Selected country 66, Ethiopia
+Downloading...
+Downloaded 66
+
+Selected country 67, Falkland Islands (Islas Malvinas)
+Downloading...
+Downloaded 67
+
+Selected country 68, Faroe Islands
+Downloading...
+Downloaded 68
+
+Selected country 69, Fiji
+Downloading...
+Downloaded 69
+
+Selected country 70, Finland
+Downloading...
+Downloaded 70
+
+Selected country 71, France
+Downloading...
+Downloaded 71
+
+Selected country 72, French Guiana
+Downloading...
+Downloaded 72
+
+Selected country 73, French Polynesia
+Downloading...
+Downloaded 73
+
+Selected country 74, Gabon
+Downloading...
+Downloaded 74
+
+Selected country 75, West Bank and Gaza
+Downloading...
+Downloaded 75
+
+Selected country 76, Georgia
+Downloading...
+Downloaded 76
+
+Selected country 77, Germany
+Downloading...
+Downloaded 77
+
+Selected country 78, Ghana
+Downloading...
+Downloaded 78
+
+Selected country 79, Gibraltar
+Downloading...
+Downloaded 79
+
+Selected country 80, Greece
+Downloading...
+Downloaded 80
+
+Selected country 81, Greenland
+Downloading...
+Downloaded 81
+
+Selected country 82, Grenada
+Downloading...
+Downloaded 82
+
+Selected country 83, Guadeloupe
+Downloading...
+Downloaded 83
+
+Selected country 84, Guam
+Downloading...
+Downloaded 84
+
+Selected country 85, Guatemala
+Downloading...
+Downloaded 85
+
+Selected country 86, Guinea
+Downloading...
+Downloaded 86
+
+Selected country 87, Guinea-Bissau
+Downloading...
+Downloaded 87
+
+Selected country 88, Guyana
+Downloading...
+Downloaded 88
+
+Selected country 89, Haiti
+Downloading...
+Downloaded 89
+
+Selected country 90, Honduras
+Downloading...
+Downloaded 90
+
+Selected country 91, Hungary
+Downloading...
+Downloaded 91
+
+Selected country 92, Iceland
+Downloading...
+Downloaded 92
+
+Selected country 93, India
+Downloading...
+Downloaded 93
+
+Selected country 94, Indonesia
+Downloading...
+Downloaded 94
+
+Selected country 95, Iran
+Downloading...
+Downloaded 95
+
+Selected country 96, Iraq
+Downloading...
+Downloaded 96
+
+Selected country 97, Ireland
+Downloading...
+Downloaded 97
+
+Selected country 98, Israel
+Downloading...
+Downloaded 98
+
+Selected country 99, Italy
+Downloading...
+Downloaded 99
+
+Selected country 100, Jamaica
+Downloading...
+Downloaded 100
+
+Selected country 101, Japan
+Downloading...
+Downloaded 101
+
+Selected country 102, Jordan
+Downloading...
+Downloaded 102
+
+Selected country 103, Kazakhstan
+Downloading...
+Downloaded 103
+
+Selected country 104, Kenya
+Downloading...
+Downloaded 104
+
+Selected country 105, Kiribati
+Downloading...
+Downloaded 105
+
+Selected country 106, Kosovo
+Downloading...
+Downloaded 106
+
+Selected country 107, Kuwait
+Downloading...
+Downloaded 107
+
+Selected country 108, Kyrgyz Republic
+Downloading...
+Downloaded 108
+
+Selected country 109, Laos
+Downloading...
+Downloaded 109
+
+Selected country 110, Latvia
+Downloading...
+Downloaded 110
+
+Selected country 111, Lebanon
+Downloading...
+Downloaded 111
+
+Selected country 112, Lesotho
+Downloading...
+Downloaded 112
+
+Selected country 113, Liberia
+Downloading...
+Downloaded 113
+
+Selected country 114, Libya
+Downloading...
+Downloaded 114
+
+Selected country 115, Liechtenstein
+Downloading...
+Downloaded 115
+
+Selected country 116, Lithuania
+Downloading...
+Downloaded 116
+
+Selected country 117, Luxembourg
+Downloading...
+Downloaded 117
+
+Selected country 118, Macao SAR, China
+Downloading...
+Downloaded 118
+
+Selected country 119, Macedonia
+Downloading...
+Downloaded 119
+
+Selected country 120, Madagascar
+Downloading...
+Downloaded 120
+
+Selected country 121, Malawi
+Downloading...
+Downloaded 121
+
+Selected country 122, Malaysia
+Downloading...
+Downloaded 122
+
+Selected country 123, Maldives
+Downloading...
+Downloaded 123
+
+Selected country 124, Mali
+Downloading...
+Downloaded 124
+
+Selected country 125, Malta
+Downloading...
+Downloaded 125
+
+Selected country 126, Marshall Islands
+Downloading...
+Downloaded 126
+
+Selected country 127, Martinique
+Downloading...
+Downloaded 127
+
+Selected country 128, Mauritania
+Downloading...
+Downloaded 128
+
+Selected country 129, Mauritius
+Downloading...
+Downloaded 129
+
+Selected country 130, Mayotte
+Downloading...
+Downloaded 130
+
+Selected country 131, Mexico
+Downloading...
+Downloaded 131
+
+Selected country 132, Federated States of Micronesia
+Downloading...
+Downloaded 132
+
+Selected country 133, Moldova
+Downloading...
+Downloaded 133
+
+Selected country 134, Monaco
+Downloading...
+Downloaded 134
+
+Selected country 135, Mongolia
+Downloading...
+Downloaded 135
+
+Selected country 136, Republic of Montenegro
+Downloading...
+Downloaded 136
+
+Selected country 137, Montserrat
+Downloading...
+Downloaded 137
+
+Selected country 138, Morocco
+Downloading...
+Downloaded 138
+
+Selected country 139, Mozambique
+Downloading...
+Downloaded 139
+
+Selected country 140, Myanmar (Burma)
+Downloading...
+Downloaded 140
+
+Selected country 141, Namibia
+Downloading...
+Downloaded 141
+
+Selected country 142, Nauru
+Downloading...
+Downloaded 142
+
+Selected country 143, Nepal
+Downloading...
+Downloaded 143
+
+Selected country 144, Netherlands
+Downloading...
+Downloaded 144
+
+Selected country 145, Netherlands Antilles
+Downloading...
+Downloaded 145
+
+Selected country 146, New Caledonia
+Downloading...
+Downloaded 146
+
+Selected country 147, New Zealand
+Downloading...
+Downloaded 147
+
+Selected country 148, Nicaragua
+Downloading...
+Downloaded 148
+
+Selected country 149, Niger
+Downloading...
+Downloaded 149
+
+Selected country 150, Nigeria
+Downloading...
+Downloaded 150
+
+Selected country 151, Niue
+Downloading...
+Downloaded 151
+
+Selected country 152, Norfolk Island
+Downloading...
+Downloaded 152
+
+Selected country 153, Korea, Democratic People's Republic of
+Downloading...
+Downloaded 153
+
+Selected country 154, Northern Mariana Islands
+Downloading...
+Downloaded 154
+
+Selected country 155, Norway
+Downloading...
+Downloaded 155
+
+Selected country 156, Oman
+Downloading...
+Downloaded 156
+
+Selected country 157, Pakistan
+Downloading...
+Downloaded 157
+
+Selected country 158, Palau
+Downloading...
+Downloaded 158
+
+Selected country 159, Panama
+Downloading...
+Downloaded 159
+
+Selected country 160, Papua New Guinea
+Downloading...
+Downloaded 160
+
+Selected country 161, Paraguay
+Downloading...
+Downloaded 161
+
+Selected country 162, Peru
+Downloading...
+Downloaded 162
+
+Selected country 163, Philippines
+Downloading...
+Downloaded 163
+
+Selected country 164, Pitcairn Islands
+Downloading...
+Downloaded 164
+
+Selected country 165, Poland
+Downloading...
+Downloaded 165
+
+Selected country 166, Portugal
+Downloading...
+Downloaded 166
+
+Selected country 167, Puerto Rico
+Downloading...
+Downloaded 167
+
+Selected country 168, Qatar
+Downloading...
+Downloaded 168
+
+Selected country 169, Reunion
+Downloading...
+Downloaded 169
+
+Selected country 170, Romania
+Downloading...
+Downloaded 170
+
+Selected country 171, Russia
+Downloading...
+Downloaded 171
+
+Selected country 172, Rwanda
+Downloading...
+Downloaded 172
+
+Selected country 173, Samoa
+Downloading...
+Downloaded 173
+
+Selected country 174, San Marino
+Downloading...
+Downloaded 174
+
+Selected country 175, Sao Tome and Principe
+Downloading...
+Downloaded 175
+
+Selected country 176, Saudi Arabia
+Downloading...
+Downloaded 176
+
+Selected country 177, Senegal
+Downloading...
+Downloaded 177
+
+Selected country 178, Republic of Serbia
+Downloading...
+Downloaded 178
+
+Selected country 179, Seychelles
+Downloading...
+Downloaded 179
+
+Selected country 180, Sierra Leone
+Downloading...
+Downloaded 180
+
+Selected country 181, Singapore
+Downloading...
+Downloaded 181
+
+Selected country 182, Slovakia
+Downloading...
+Downloaded 182
+
+Selected country 183, Slovenia
+Downloading...
+Downloaded 183
+
+Selected country 184, Solomon Islands
+Downloading...
+Downloaded 184
+
+Selected country 185, Somalia
+Downloading...
+Downloaded 185
+
+Selected country 186, South Africa
+Downloading...
+Downloaded 186
+
+Selected country 187, Korea, Republic of
+Downloading...
+Downloaded 187
+
+Selected country 188, South Sudan
+Downloading...
+Downloaded 188
+
+Selected country 189, Spain
+Downloading...
+Downloaded 189
+
+Selected country 190, Sri Lanka
+Downloading...
+Downloaded 190
+
+Selected country 191, St. Helena
+Downloading...
+Downloaded 191
+
+Selected country 192, St. Kitts and Nevis
+Downloading...
+Downloaded 192
+
+Selected country 193, St. Lucia
+Downloading...
+Downloaded 193
+
+Selected country 194, St. Vincent and the Grenadines
+Downloading...
+Downloaded 194
+
+Selected country 195, Sudan
+Downloading...
+Downloaded 195
+
+Selected country 196, Suriname
+Downloading...
+Downloaded 196
+
+Selected country 197, Svalbard
+Downloading...
+Downloaded 197
+
+Selected country 198, Eswatini
+Downloading...
+Downloaded 198
+
+Selected country 199, Sweden
+Downloading...
+Downloaded 199
+
+Selected country 200, Switzerland
+Downloading...
+Downloaded 200
+
+Selected country 201, Syria
+Downloading...
+Downloaded 201
+
+Selected country 202, Tajikistan
+Downloading...
+Downloaded 202
+
+Selected country 203, Tanzania, United Republic of
+Downloading...
+Downloaded 203
+
+Selected country 204, Thailand
+Downloading...
+Downloaded 204
+
+Selected country 205, Bahamas, The
+Downloading...
+Downloaded 205
+
+Selected country 206, Gambia, The
+Downloading...
+Downloaded 206
+
+Selected country 207, Timor Leste
+Downloading...
+Downloaded 207
+
+Selected country 208, Togo
+Downloading...
+Downloaded 208
+
+Selected country 209, Tokelau
+Downloading...
+Downloaded 209
+
+Selected country 210, Tonga
+Downloading...
+Downloaded 210
+
+Selected country 211, Trinidad and Tobago
+Downloading...
+Downloaded 211
+
+Selected country 212, Tunisia
+Downloading...
+Downloaded 212
+
+Selected country 213, Turkey
+Downloading...
+Downloaded 213
+
+Selected country 214, Turkmenistan
+Downloading...
+Downloaded 214
+
+Selected country 215, Turks and Caicos Islands
+Downloading...
+Downloaded 215
+
+Selected country 216, Tuvalu
+Downloading...
+Downloaded 216
+
+Selected country 217, Uganda
+Downloading...
+Downloaded 217
+
+Selected country 218, Ukraine
+Downloading...
+Downloaded 218
+
+Selected country 219, United Arab Emirates
+Downloading...
+Downloaded 219
+
+Selected country 220, United Kingdom
+Downloading...
+Downloaded 220
+
+Selected country 221, United States
+Downloading...
+Downloaded 221
+
+Selected country 222, Uruguay
+Downloading...
+Downloaded 222
+
+Selected country 223, Uzbekistan
+Downloading...
+Downloaded 223
+
+Selected country 224, Vanuatu
+Downloading...
+Downloaded 224
+
+Selected country 225, Venezuela
+Downloading...
+Downloaded 225
+
+Selected country 226, Vietnam
+Downloading...
+Downloaded 226
+
+Selected country 227, Virgin Islands
+Downloading...
+Downloaded 227
+
+Selected country 228, Wallis and Futuna
+Downloading...
+Downloaded 228
+
+Selected country 229, Western Sahara
+Downloading...
+Downloaded 229
+
+Selected country 230, Yemen
+Downloading...
+Downloaded 230
+
+Selected country 231, Zambia
+Downloading...
+Downloaded 231
+
+Selected country 232, Zimbabwe
+Downloading...
+Downloaded 232
+
+waited 10s
+waited 20s
+
+
+ready to exit
+
+
+
+web scraping successfully completed
+###END###
+
+# 404 page not found
+https://climateknowledgeportal.worldbank.org/cru/cru/timeseries/tas/annual/climatology/others/country/XRK
+https://climateknowledgeportal.worldbank.org/cru/cru/timeseries/tas/annual/climatology/others/country/ANT
