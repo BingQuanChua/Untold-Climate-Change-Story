@@ -4,17 +4,18 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 import time  
 
-print("\nweb scraping started\n")
+print("\nStarted web scraping\n")
 
 # initiate chrome driver
 driver = webdriver.Chrome(r"chromedriver.exe")  
+print("\nInitiated chrome driver\n")
 
 # maximize the window size  
 # driver.maximize_window()  
 
 # navigate to the url  
 driver.get("https://climateknowledgeportal.worldbank.org/download-data")  
-print("\nopened website\n")
+print("\nOpened website\n")
 time.sleep(5)
 
 # identify the timeseries tab 
@@ -45,30 +46,37 @@ select_area_type = Select(driver.find_element_by_xpath('//form[@class="form_time
 select_area_type.select_by_value("country") 
 
 # ready to download
-print("\nFilled form, download starts in 5 seconds")
+print("\nFilled form, download starts in 5 seconds\n")
 time.sleep(5)
-print("Download starting...\n\n")
 select_country = Select(driver.find_element_by_xpath('//form[@class="form_timeseries_tab"]/div/div/select[@id="country"]'))
+
+# get all the dropdown options
+opt = select_country.options
+print("\nTotal number of country: "+str(len(opt))+"\n")
+
+# start to download
+print("\nStarting download...\n\n")
 time.sleep(2)
 
+
 # loop the download
-for i in range (1,5):
+for i in range (1,len(opt)):
     select_country.select_by_index(i)
-    print("Selected country "+str(i) + " name: " + str(select_country.select_by_index(i).get_attribute('text')))
+    print("Selected country "+str(i) + ", " + str(opt[i].text))
     time.sleep(8)
     driver.implicitly_wait(7)
     print("Downloading...")
     driver.find_element_by_xpath('//form[@class="form_timeseries_tab"]/div/div/button[@id="submit"]').click()
-    time.sleep(15)
+    time.sleep(10)
     print("Downloaded "+str(i)+"\n")
 
 # final waiting time for any unfinished downloads
 time.sleep(10)
 print("waited 10s")
 time.sleep(10)
-print("waited 20s")
-time.sleep(10)
-print("waited 30s")
+print("waited 20s\n")
+print("\nready to exit\n")
+time.sleep(2)
 
 #close the browser  
 driver.close()  
