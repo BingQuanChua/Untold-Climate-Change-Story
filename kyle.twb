@@ -1,0 +1,1452 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='WorldBank_Climate_Data' inline='true' name='federated.1g7gr0707ka67p15fo5ng15nghja' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='WorldBank_Climate_Data' name='textscan.10rewgp1hb681n1b2iabi0iz65lq'>
+            <connection class='textscan' directory='C:/Users/Asus/Desktop/Year3_Sem2_Jan2022/data-viz/Assignment/Untold-Climate-Change-Story/output' filename='WorldBank_Climate_Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10rewgp1hb681n1b2iabi0iz65lq' name='WorldBank_Climate_Data.csv' table='[WorldBank_Climate_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Country Code' ordinal='2' />
+            <column datatype='real' name='Urban population (% of total population)' ordinal='3' />
+            <column datatype='real' name='Urban population' ordinal='4' />
+            <column datatype='real' name='Urban population growth (annual %)' ordinal='5' />
+            <column datatype='real' name='Population, total' ordinal='6' />
+            <column datatype='real' name='Population growth (annual %)' ordinal='7' />
+            <column datatype='real' name='Mortality rate, under-5 (per 1,000 live births)' ordinal='8' />
+            <column datatype='real' name='School enrollment, primary and secondary (gross), gender parity index (GPI)' ordinal='9' />
+            <column datatype='real' name='Agriculture, forestry, and fishing, value added (% of GDP)' ordinal='10' />
+            <column datatype='real' name='Population in urban agglomerations of more than 1 million (% of total population)' ordinal='11' />
+            <column datatype='real' name='Nitrous oxide emissions (thousand metric tons of CO2 equivalent)' ordinal='12' />
+            <column datatype='real' name='Methane emissions (kt of CO2 equivalent)' ordinal='13' />
+            <column datatype='real' name='Total greenhouse gas emissions (kt of CO2 equivalent)' ordinal='14' />
+            <column datatype='real' name='Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)' ordinal='15' />
+            <column datatype='real' name='CO2 emissions from solid fuel consumption (% of total)' ordinal='16' />
+            <column datatype='real' name='CO2 emissions from solid fuel consumption (kt)' ordinal='17' />
+            <column datatype='real' name='CO2 emissions (metric tons per capita)' ordinal='18' />
+            <column datatype='real' name='CO2 emissions from liquid fuel consumption (% of total)' ordinal='19' />
+            <column datatype='real' name='CO2 emissions from liquid fuel consumption (kt)' ordinal='20' />
+            <column datatype='real' name='CO2 emissions (kt)' ordinal='21' />
+            <column datatype='real' name='CO2 emissions (kg per 2015 US$ of GDP)' ordinal='22' />
+            <column datatype='real' name='CO2 emissions from gaseous fuel consumption (% of total)' ordinal='23' />
+            <column datatype='real' name='CO2 emissions from gaseous fuel consumption (kt)' ordinal='24' />
+            <column datatype='real' name='CO2 intensity (kg per kg of oil equivalent energy use)' ordinal='25' />
+            <column datatype='real' name='Energy use (kg of oil equivalent per capita)' ordinal='26' />
+            <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (% of total)' ordinal='27' />
+            <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (kWh)' ordinal='28' />
+            <column datatype='real' name='Electricity production from oil sources (% of total)' ordinal='29' />
+            <column datatype='real' name='Electricity production from natural gas sources (% of total)' ordinal='30' />
+            <column datatype='real' name='Electricity production from hydroelectric sources (% of total)' ordinal='31' />
+            <column datatype='real' name='Electricity production from coal sources (% of total)' ordinal='32' />
+            <column datatype='real' name='Foreign direct investment, net inflows (% of GDP)' ordinal='33' />
+            <column datatype='real' name='Cereal yield (kg per hectare)' ordinal='34' />
+            <column datatype='real' name='Forest area (% of land area)' ordinal='35' />
+            <column datatype='real' name='Forest area (sq. km)' ordinal='36' />
+            <column datatype='real' name='Arable land (% of land area)' ordinal='37' />
+            <column datatype='real' name='Agricultural land (% of land area)' ordinal='38' />
+            <column datatype='real' name='Agricultural land (sq. km)' ordinal='39' />
+            <column datatype='real' name='Temperature' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.10rewgp1hb681n1b2iabi0iz65lq' name='WorldBank_Climate_Data.csv' table='[WorldBank_Climate_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Country Code' ordinal='2' />
+            <column datatype='real' name='Urban population (% of total population)' ordinal='3' />
+            <column datatype='real' name='Urban population' ordinal='4' />
+            <column datatype='real' name='Urban population growth (annual %)' ordinal='5' />
+            <column datatype='real' name='Population, total' ordinal='6' />
+            <column datatype='real' name='Population growth (annual %)' ordinal='7' />
+            <column datatype='real' name='Mortality rate, under-5 (per 1,000 live births)' ordinal='8' />
+            <column datatype='real' name='School enrollment, primary and secondary (gross), gender parity index (GPI)' ordinal='9' />
+            <column datatype='real' name='Agriculture, forestry, and fishing, value added (% of GDP)' ordinal='10' />
+            <column datatype='real' name='Population in urban agglomerations of more than 1 million (% of total population)' ordinal='11' />
+            <column datatype='real' name='Nitrous oxide emissions (thousand metric tons of CO2 equivalent)' ordinal='12' />
+            <column datatype='real' name='Methane emissions (kt of CO2 equivalent)' ordinal='13' />
+            <column datatype='real' name='Total greenhouse gas emissions (kt of CO2 equivalent)' ordinal='14' />
+            <column datatype='real' name='Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)' ordinal='15' />
+            <column datatype='real' name='CO2 emissions from solid fuel consumption (% of total)' ordinal='16' />
+            <column datatype='real' name='CO2 emissions from solid fuel consumption (kt)' ordinal='17' />
+            <column datatype='real' name='CO2 emissions (metric tons per capita)' ordinal='18' />
+            <column datatype='real' name='CO2 emissions from liquid fuel consumption (% of total)' ordinal='19' />
+            <column datatype='real' name='CO2 emissions from liquid fuel consumption (kt)' ordinal='20' />
+            <column datatype='real' name='CO2 emissions (kt)' ordinal='21' />
+            <column datatype='real' name='CO2 emissions (kg per 2015 US$ of GDP)' ordinal='22' />
+            <column datatype='real' name='CO2 emissions from gaseous fuel consumption (% of total)' ordinal='23' />
+            <column datatype='real' name='CO2 emissions from gaseous fuel consumption (kt)' ordinal='24' />
+            <column datatype='real' name='CO2 intensity (kg per kg of oil equivalent energy use)' ordinal='25' />
+            <column datatype='real' name='Energy use (kg of oil equivalent per capita)' ordinal='26' />
+            <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (% of total)' ordinal='27' />
+            <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (kWh)' ordinal='28' />
+            <column datatype='real' name='Electricity production from oil sources (% of total)' ordinal='29' />
+            <column datatype='real' name='Electricity production from natural gas sources (% of total)' ordinal='30' />
+            <column datatype='real' name='Electricity production from hydroelectric sources (% of total)' ordinal='31' />
+            <column datatype='real' name='Electricity production from coal sources (% of total)' ordinal='32' />
+            <column datatype='real' name='Foreign direct investment, net inflows (% of GDP)' ordinal='33' />
+            <column datatype='real' name='Cereal yield (kg per hectare)' ordinal='34' />
+            <column datatype='real' name='Forest area (% of land area)' ordinal='35' />
+            <column datatype='real' name='Forest area (sq. km)' ordinal='36' />
+            <column datatype='real' name='Arable land (% of land area)' ordinal='37' />
+            <column datatype='real' name='Agricultural land (% of land area)' ordinal='38' />
+            <column datatype='real' name='Agricultural land (sq. km)' ordinal='39' />
+            <column datatype='real' name='Temperature' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban population (% of total population)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Urban population (% of total population)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Urban population (% of total population)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Urban population]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Urban population</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban population growth (annual %)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Urban population growth (annual %)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Urban population growth (annual %)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population, total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population, total]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Population, total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population growth (annual %)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population growth (annual %)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Population growth (annual %)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mortality rate, under-5 (per 1,000 live births)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mortality rate, under-5 (per 1,000 live births)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Mortality rate, under-5 (per 1,000 live births)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School enrollment, primary and secondary (gross), gender parity index (GPI)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[School enrollment, primary and secondary (gross), gender parity index (GPI)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>School enrollment, primary and secondary (gross), gender parity index (GPI)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agriculture, forestry, and fishing, value added (% of GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agriculture, forestry, and fishing, value added (% of GDP)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Agriculture, forestry, and fishing, value added (% of GDP)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population in urban agglomerations of more than 1 million (% of total population)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population in urban agglomerations of more than 1 million (% of total population)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Population in urban agglomerations of more than 1 million (% of total population)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nitrous oxide emissions (thousand metric tons of CO2 equivalent)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nitrous oxide emissions (thousand metric tons of CO2 equivalent)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Nitrous oxide emissions (thousand metric tons of CO2 equivalent)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Methane emissions (kt of CO2 equivalent)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Methane emissions (kt of CO2 equivalent)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Methane emissions (kt of CO2 equivalent)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total greenhouse gas emissions (kt of CO2 equivalent)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total greenhouse gas emissions (kt of CO2 equivalent)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Total greenhouse gas emissions (kt of CO2 equivalent)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from solid fuel consumption (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from solid fuel consumption (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from solid fuel consumption (% of total)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from solid fuel consumption (kt)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from solid fuel consumption (kt)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from solid fuel consumption (kt)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions (metric tons per capita)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions (metric tons per capita)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions (metric tons per capita)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from liquid fuel consumption (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from liquid fuel consumption (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from liquid fuel consumption (% of total)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from liquid fuel consumption (kt)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from liquid fuel consumption (kt)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from liquid fuel consumption (kt)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions (kt)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions (kt)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions (kt)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions (kg per 2015 US$ of GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions (kg per 2015 US$ of GDP)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions (kg per 2015 US$ of GDP)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from gaseous fuel consumption (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from gaseous fuel consumption (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from gaseous fuel consumption (% of total)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions from gaseous fuel consumption (kt)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 emissions from gaseous fuel consumption (kt)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 emissions from gaseous fuel consumption (kt)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 intensity (kg per kg of oil equivalent energy use)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2 intensity (kg per kg of oil equivalent energy use)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>CO2 intensity (kg per kg of oil equivalent energy use)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Energy use (kg of oil equivalent per capita)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Energy use (kg of oil equivalent per capita)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Energy use (kg of oil equivalent per capita)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from renewable sources, excluding hydroelectric (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from renewable sources, excluding hydroelectric (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from renewable sources, excluding hydroelectric (% of total)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from renewable sources, excluding hydroelectric (kWh)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from renewable sources, excluding hydroelectric (kWh)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from renewable sources, excluding hydroelectric (kWh)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from oil sources (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from oil sources (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from oil sources (% of total)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from natural gas sources (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from natural gas sources (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from natural gas sources (% of total)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from hydroelectric sources (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from hydroelectric sources (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from hydroelectric sources (% of total)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity production from coal sources (% of total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity production from coal sources (% of total)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Electricity production from coal sources (% of total)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign direct investment, net inflows (% of GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign direct investment, net inflows (% of GDP)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Foreign direct investment, net inflows (% of GDP)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cereal yield (kg per hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cereal yield (kg per hectare)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Cereal yield (kg per hectare)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Forest area (% of land area)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Forest area (% of land area)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Forest area (% of land area)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Forest area (sq. km)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Forest area (sq. km)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Forest area (sq. km)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arable land (% of land area)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Arable land (% of land area)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Arable land (% of land area)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agricultural land (% of land area)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agricultural land (% of land area)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Agricultural land (% of land area)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agricultural land (sq. km)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agricultural land (sq. km)]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Agricultural land (sq. km)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[WorldBank_Climate_Data.csv]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Temperature Difference' datatype='real' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ZN(SUM([Temperature])) - LOOKUP(ZN(SUM([Temperature])), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='WorldBank_Climate_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7]' role='measure' type='quantitative' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Year:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1980</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2020</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='WorldBank_Climate_Data.csv' id='WorldBank_Climate_Data.csv_B38EDD186B094846AE7103556BB316C7'>
+            <properties context=''>
+              <relation connection='textscan.10rewgp1hb681n1b2iabi0iz65lq' name='WorldBank_Climate_Data.csv' table='[WorldBank_Climate_Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Country Code' ordinal='2' />
+                  <column datatype='real' name='Urban population (% of total population)' ordinal='3' />
+                  <column datatype='real' name='Urban population' ordinal='4' />
+                  <column datatype='real' name='Urban population growth (annual %)' ordinal='5' />
+                  <column datatype='real' name='Population, total' ordinal='6' />
+                  <column datatype='real' name='Population growth (annual %)' ordinal='7' />
+                  <column datatype='real' name='Mortality rate, under-5 (per 1,000 live births)' ordinal='8' />
+                  <column datatype='real' name='School enrollment, primary and secondary (gross), gender parity index (GPI)' ordinal='9' />
+                  <column datatype='real' name='Agriculture, forestry, and fishing, value added (% of GDP)' ordinal='10' />
+                  <column datatype='real' name='Population in urban agglomerations of more than 1 million (% of total population)' ordinal='11' />
+                  <column datatype='real' name='Nitrous oxide emissions (thousand metric tons of CO2 equivalent)' ordinal='12' />
+                  <column datatype='real' name='Methane emissions (kt of CO2 equivalent)' ordinal='13' />
+                  <column datatype='real' name='Total greenhouse gas emissions (kt of CO2 equivalent)' ordinal='14' />
+                  <column datatype='real' name='Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)' ordinal='15' />
+                  <column datatype='real' name='CO2 emissions from solid fuel consumption (% of total)' ordinal='16' />
+                  <column datatype='real' name='CO2 emissions from solid fuel consumption (kt)' ordinal='17' />
+                  <column datatype='real' name='CO2 emissions (metric tons per capita)' ordinal='18' />
+                  <column datatype='real' name='CO2 emissions from liquid fuel consumption (% of total)' ordinal='19' />
+                  <column datatype='real' name='CO2 emissions from liquid fuel consumption (kt)' ordinal='20' />
+                  <column datatype='real' name='CO2 emissions (kt)' ordinal='21' />
+                  <column datatype='real' name='CO2 emissions (kg per 2015 US$ of GDP)' ordinal='22' />
+                  <column datatype='real' name='CO2 emissions from gaseous fuel consumption (% of total)' ordinal='23' />
+                  <column datatype='real' name='CO2 emissions from gaseous fuel consumption (kt)' ordinal='24' />
+                  <column datatype='real' name='CO2 intensity (kg per kg of oil equivalent energy use)' ordinal='25' />
+                  <column datatype='real' name='Energy use (kg of oil equivalent per capita)' ordinal='26' />
+                  <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (% of total)' ordinal='27' />
+                  <column datatype='real' name='Electricity production from renewable sources, excluding hydroelectric (kWh)' ordinal='28' />
+                  <column datatype='real' name='Electricity production from oil sources (% of total)' ordinal='29' />
+                  <column datatype='real' name='Electricity production from natural gas sources (% of total)' ordinal='30' />
+                  <column datatype='real' name='Electricity production from hydroelectric sources (% of total)' ordinal='31' />
+                  <column datatype='real' name='Electricity production from coal sources (% of total)' ordinal='32' />
+                  <column datatype='real' name='Foreign direct investment, net inflows (% of GDP)' ordinal='33' />
+                  <column datatype='real' name='Cereal yield (kg per hectare)' ordinal='34' />
+                  <column datatype='real' name='Forest area (% of land area)' ordinal='35' />
+                  <column datatype='real' name='Forest area (sq. km)' ordinal='36' />
+                  <column datatype='real' name='Arable land (% of land area)' ordinal='37' />
+                  <column datatype='real' name='Agricultural land (% of land area)' ordinal='38' />
+                  <column datatype='real' name='Agricultural land (sq. km)' ordinal='39' />
+                  <column datatype='real' name='Temperature' ordinal='40' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='WorldBank_Climate_Data' name='federated.1g7gr0707ka67p15fo5ng15nghja' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1g7gr0707ka67p15fo5ng15nghja'>
+            <column datatype='real' name='[CO2 emissions (kt)]' role='measure' type='quantitative' />
+            <column caption='ZN(SUM([CO2 emissions (kt)])) - LOOKUP(ZN(SUM([CO2 emissions ...' datatype='real' name='[Calculation_965459174522048533]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='ZN(SUM([CO2 emissions (kt)])) - LOOKUP(ZN(SUM([CO2 emissions (kt)])), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_965459174522048533]' derivation='User' name='[usr:Calculation_965459174522048533:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1g7gr0707ka67p15fo5ng15nghja].[Year]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Year:ok]' member='1980' />
+              <groupfilter function='member' level='[none:Year:ok]' member='1990' />
+              <groupfilter function='member' level='[none:Year:ok]' member='2000' />
+              <groupfilter function='member' level='[none:Year:ok]' member='2010' />
+              <groupfilter function='member' level='[none:Year:ok]' member='2020' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Year:ok]' member='1980' />
+                <groupfilter function='member' level='[none:Year:ok]' member='2010' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1g7gr0707ka67p15fo5ng15nghja].[usr:Calculation_965459174522048533:qk:1]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]</rows>
+        <cols>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Country Name:nk]</cols>
+      </table>
+      <simple-id uuid='{965FF063-25A4-4D86-B812-1C586F31FB63}' />
+    </worksheet>
+    <worksheet name='Temperature Difference'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run># Details
+Map based on Longitude (generated) and Latitude (generated) broken down by Year.  Color shows Difference in Temperature.  Details are shown for Country Name. The view is filtered on Year, which keeps 1980 and 2020.
+
+# Steps to produce this worksheet
+1. Drag [Year] to rows shelf, and change [Year] into discrete type, and filter year into 1980 and 2020.
+2.  Drag [Country Name] to columns shelf. Change the Show Me to &quot;Text Table&quot;.
+3. Double click [Temperature], then right click [Temperature] to add a calculation table to it. 
+4. Details of the calculation table
+- Calculation type: &quot;difference across&quot; 
+- Compute using &quot;specific domain&quot; and tick &quot;Years&quot; only
+- Relative to: &quot;previous&quot;
+5. Lastly, click Show Me and choose &quot;Maps&quot;
+</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='WorldBank_Climate_Data' name='federated.1g7gr0707ka67p15fo5ng15nghja' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1g7gr0707ka67p15fo5ng15nghja'>
+            <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Temperature]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Temperature]' derivation='Sum' name='[diff:sum:Temperature:qk:12]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-field='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]' ordering-type='Field' type='Difference'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Year:ok]' member='1980' />
+              <groupfilter function='member' level='[none:Year:ok]' member='2020' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+              <groupfilter function='member' level='[none:Year:ok]' member='1980' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1g7gr0707ka67p15fo5ng15nghja].[Longitude (generated)]' field-type='quantitative' max='23755275.527866289' min='-22847173.948528338' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1g7gr0707ka67p15fo5ng15nghja].[Latitude (generated)]' field-type='quantitative' max='18328975.856250018' min='-10231758.003605142' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1g7gr0707ka67p15fo5ng15nghja].[diff:sum:Temperature:qk:12]' num-steps='10' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Country Name:nk]' />
+              <color column='[federated.1g7gr0707ka67p15fo5ng15nghja].[diff:sum:Temperature:qk:12]' />
+              <geometry column='[federated.1g7gr0707ka67p15fo5ng15nghja].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok] * [federated.1g7gr0707ka67p15fo5ng15nghja].[Latitude (generated)])</rows>
+        <cols>[federated.1g7gr0707ka67p15fo5ng15nghja].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6F27ABED-E591-44CC-A504-4A9F77B568AE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Temperature Difference'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g7gr0707ka67p15fo5ng15nghja].[diff:sum:Temperature:qk:12]' type='color' />
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Country Name:nk]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:qk]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[usr:Calculation1:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{8CF75B3A-F8D8-4FEB-8E0A-D431F5CFE92F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[diff:sum:Temperature:qk:3]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Country Name:nk]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:ok]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[none:Year:qk]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[usr:Calculation2:qk]</field>
+            <field>[federated.1g7gr0707ka67p15fo5ng15nghja].[usr:Calculation_965459174522048533:qk:1]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{1C84D33A-8827-4E38-AE62-D53BD02476AF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='124' name='Sheet 2' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Temperature Difference' width='192'>
+      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
+      /VKpVNEi+P+gC8JBDo0kUQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
