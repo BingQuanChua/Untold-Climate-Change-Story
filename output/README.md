@@ -8,5 +8,6 @@ List of outputs and where were they generated
 ## dataset_country_code
 
 1. `temperature_all.csv`: All scrapped temperature data concatenated together
+1. `temperature_all_wb.csv` : `temperature_all.csv` but in World Bank format (Year, Country, Temperature)
 2. `temperature_filtered.csv`: Only scrapped temperature data with intersected country codes are concatenated
 3. `WorldBank_Climate_Data.csv`: World Bank complete climate change and temperature data (we will be using this file for our Tableau visualizations)
